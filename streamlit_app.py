@@ -21,4 +21,4 @@ In the meantime, below is an example of what you can do with just a few lines of
 alt.Chart(df).mark_bar().encode(
     alt.X('PROJECT_NAMEE') ,
     alt.Y('SALES'),
-    alt.Color('PROJECT_NAMEE', legend=None) 
+    alt.Color('PROJECT_NAMEE', legend=None))
